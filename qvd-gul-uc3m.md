@@ -148,7 +148,7 @@ http://github.com/salva/s-qvd-gul-uc3m
 - KVM, Xen, VMWare, etc.
 - Cada maquina virtual tiene su propio kernel.
 - Las VMs no colaboran sino que compiten por los recursos.
-- Cada VMs tiene sus buffers de I/O
+- Cada VM tiene sus buffers de I/O
 - Las VMs usan el 100% de la memoria asignada.
 
 ---
