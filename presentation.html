@@ -1,0 +1,2164 @@
+<!DOCTYPE html>
+<!--
+  Copyright 2010 Google Inc.
+
+  Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+
+     http://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.
+
+  Original slides: Marcin Wichary (mwichary@google.com)
+  Modifications: Ernest Delgado (ernestd@google.com)
+                 Alex Russell (slightlyoff@chromium.org)
+
+  landslide modifications: Adam Zapletal (adamzap@gmail.com)
+                           Nicolas Perriault (nperriault@gmail.com)
+-->
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>QVD</title>
+    <!-- Styles -->
+    
+    <link rel="stylesheet" media="print" href="/usr/lib/python2.7/dist-packages/landslide/themes/avalanche/css/print.css">
+    <link rel="stylesheet" media="screen, projection" href="/usr/lib/python2.7/dist-packages/landslide/themes/avalanche/css/screen.css">
+    
+    
+    <!-- /Styles -->
+    <!-- Javascripts -->
+    
+    <script type="text/javascript" src="/usr/lib/python2.7/dist-packages/landslide/themes/avalanche/js/slides.js"></script>
+    
+    
+    <!-- /Javascripts -->
+</head>
+<body>
+  <div id="blank"></div>
+  <div class="presentation">
+    <div id="time">
+      <span id="hours">00</span>:<span id="minutes">00</span>:<span id="seconds">00</span>
+    </div>            
+    <div id="current_presenter_notes">
+      <div id="presenter_note"></div>
+    </div>
+    <div class="slides">
+      
+      <!-- slide source: qvd-gul-uc3m.md -->
+      <div class="slide-wrapper">
+        <div class="slide">
+          <div class="inner">
+            
+            <header><h1>QVD</h1></header>
+            
+            
+            <section><p><img width="40%" src="images/qvd-logo.png"/></p>
+<p>Salvador Fandiño (salvador@qindel.es)</p>
+<p>QindelGroup</p></section>
+            
+          </div>
+          <div class="presenter_notes">
+            <header><h1>Notes</h1></header>
+            <section>
+            
+            </section>
+          </div>
+          <footer>
+            
+            <aside class="source">
+              Source: <a href="qvd-gul-uc3m.md">qvd-gul-uc3m.md</a>
+            </aside>
+            
+            <aside class="page_number">
+              1/50
+            </aside>
+          </footer>
+        </div>
+      </div>
+      
+      <!-- slide source: qvd-gul-uc3m.md -->
+      <div class="slide-wrapper">
+        <div class="slide">
+          <div class="inner">
+            
+            <header><h1>QVD</h1></header>
+            
+            
+            <section><ul>
+<li>
+<p>Producto de "Virtual Desktop Infrastructure" (VDI)</p>
+</li>
+<li>
+<p>100% Open Source</p>
+</li>
+<li>
+<p>100% Linux</p>
+</li>
+</ul></section>
+            
+          </div>
+          <div class="presenter_notes">
+            <header><h1>Notes</h1></header>
+            <section>
+            
+            </section>
+          </div>
+          <footer>
+            
+            <aside class="source">
+              Source: <a href="qvd-gul-uc3m.md">qvd-gul-uc3m.md</a>
+            </aside>
+            
+            <aside class="page_number">
+              2/50
+            </aside>
+          </footer>
+        </div>
+      </div>
+      
+      <!-- slide source: qvd-gul-uc3m.md -->
+      <div class="slide-wrapper">
+        <div class="slide">
+          <div class="inner">
+            
+            <header><h1>Cliente</h1></header>
+            
+            
+            <section><ul>
+<li>Linux</li>
+<li>Windows</li>
+<li>OS X</li>
+<li>Android</li>
+<li>iOS (en desarrollo)</li>
+<li>Plugin Firefox/Chrome (en desarrollo)</li>
+</ul></section>
+            
+          </div>
+          <div class="presenter_notes">
+            <header><h1>Notes</h1></header>
+            <section>
+            
+            </section>
+          </div>
+          <footer>
+            
+            <aside class="source">
+              Source: <a href="qvd-gul-uc3m.md">qvd-gul-uc3m.md</a>
+            </aside>
+            
+            <aside class="page_number">
+              3/50
+            </aside>
+          </footer>
+        </div>
+      </div>
+      
+      <!-- slide source: qvd-gul-uc3m.md -->
+      <div class="slide-wrapper">
+        <div class="slide">
+          <div class="inner">
+            
+            
+            <section><p><img src="images/windows-client.png"/></p></section>
+            
+          </div>
+          <div class="presenter_notes">
+            <header><h1>Notes</h1></header>
+            <section>
+            
+            </section>
+          </div>
+          <footer>
+            
+            <aside class="source">
+              Source: <a href="qvd-gul-uc3m.md">qvd-gul-uc3m.md</a>
+            </aside>
+            
+            <aside class="page_number">
+              4/50
+            </aside>
+          </footer>
+        </div>
+      </div>
+      
+      <!-- slide source: qvd-gul-uc3m.md -->
+      <div class="slide-wrapper">
+        <div class="slide">
+          <div class="inner">
+            
+            <header><h1>Escritorio virtual</h1></header>
+            
+            
+            <section><ul>
+<li>Linux<ul>
+<li>Gnome</li>
+<li>KDE</li>
+<li><strong><a href="http://lxde.org">LXDE</a></strong></li>
+<li><strong><a href="http://www.xfce.org">XFCE</a></strong></li>
+<li><a href="http://www.icewm.org/">IceWM</a></li>
+<li>Otros</li>
+</ul>
+</li>
+</ul></section>
+            
+          </div>
+          <div class="presenter_notes">
+            <header><h1>Notes</h1></header>
+            <section>
+            
+            </section>
+          </div>
+          <footer>
+            
+            <aside class="source">
+              Source: <a href="qvd-gul-uc3m.md">qvd-gul-uc3m.md</a>
+            </aside>
+            
+            <aside class="page_number">
+              5/50
+            </aside>
+          </footer>
+        </div>
+      </div>
+      
+      <!-- slide source: qvd-gul-uc3m.md -->
+      <div class="slide-wrapper">
+        <div class="slide">
+          <div class="inner">
+            
+            
+            <section><p><img src="images/gnome-desktop.png"/></p></section>
+            
+          </div>
+          <div class="presenter_notes">
+            <header><h1>Notes</h1></header>
+            <section>
+            
+            </section>
+          </div>
+          <footer>
+            
+            <aside class="source">
+              Source: <a href="qvd-gul-uc3m.md">qvd-gul-uc3m.md</a>
+            </aside>
+            
+            <aside class="page_number">
+              6/50
+            </aside>
+          </footer>
+        </div>
+      </div>
+      
+      <!-- slide source: qvd-gul-uc3m.md -->
+      <div class="slide-wrapper">
+        <div class="slide">
+          <div class="inner">
+            
+            <header><h1>Servidor/Granja</h1></header>
+            
+            
+            <section><ul>
+<li>Linux<ul>
+<li>Ubuntu</li>
+<li>SuSE</li>
+<li>RedHat</li>
+</ul>
+</li>
+</ul></section>
+            
+          </div>
+          <div class="presenter_notes">
+            <header><h1>Notes</h1></header>
+            <section>
+            
+            </section>
+          </div>
+          <footer>
+            
+            <aside class="source">
+              Source: <a href="qvd-gul-uc3m.md">qvd-gul-uc3m.md</a>
+            </aside>
+            
+            <aside class="page_number">
+              7/50
+            </aside>
+          </footer>
+        </div>
+      </div>
+      
+      <!-- slide source: qvd-gul-uc3m.md -->
+      <div class="slide-wrapper">
+        <div class="slide">
+          <div class="inner">
+            
+            <header><h1>Administración</h1></header>
+            
+            
+            <section><ul>
+<li>
+<p>Herramienta Web</p>
+</li>
+<li>
+<p>Herramienta de linea de comandos</p>
+</li>
+</ul></section>
+            
+          </div>
+          <div class="presenter_notes">
+            <header><h1>Notes</h1></header>
+            <section>
+            
+            </section>
+          </div>
+          <footer>
+            
+            <aside class="source">
+              Source: <a href="qvd-gul-uc3m.md">qvd-gul-uc3m.md</a>
+            </aside>
+            
+            <aside class="page_number">
+              8/50
+            </aside>
+          </footer>
+        </div>
+      </div>
+      
+      <!-- slide source: qvd-gul-uc3m.md -->
+      <div class="slide-wrapper">
+        <div class="slide">
+          <div class="inner">
+            
+            
+            <section><p><img src="images/wat-dashboard.png"/></p></section>
+            
+          </div>
+          <div class="presenter_notes">
+            <header><h1>Notes</h1></header>
+            <section>
+            
+            </section>
+          </div>
+          <footer>
+            
+            <aside class="source">
+              Source: <a href="qvd-gul-uc3m.md">qvd-gul-uc3m.md</a>
+            </aside>
+            
+            <aside class="page_number">
+              9/50
+            </aside>
+          </footer>
+        </div>
+      </div>
+      
+      <!-- slide source: qvd-gul-uc3m.md -->
+      <div class="slide-wrapper">
+        <div class="slide">
+          <div class="inner">
+            
+            <header><h1>Destaca por...</h1></header>
+            
+            
+            <section><ul>
+<li>Eficiencia de la solución (CPU, RAM, I/O y ancho de banda).</li>
+<li>Escalabilidad (10.000 usuarios por granja, 400 VMs por nodo).</li>
+<li>Gestión de imagenes de disco inspirado en los sistemas de control de versiones.</li>
+<li>Integrable y adaptable (Open Source, arquitectura).</li>
+<li>Tambien funciona como servidor de aplicaciones.</li>
+</ul></section>
+            
+          </div>
+          <div class="presenter_notes">
+            <header><h1>Notes</h1></header>
+            <section>
+            
+            </section>
+          </div>
+          <footer>
+            
+            <aside class="source">
+              Source: <a href="qvd-gul-uc3m.md">qvd-gul-uc3m.md</a>
+            </aside>
+            
+            <aside class="page_number">
+              10/50
+            </aside>
+          </footer>
+        </div>
+      </div>
+      
+      <!-- slide source: qvd-gul-uc3m.md -->
+      <div class="slide-wrapper">
+        <div class="slide">
+          <div class="inner">
+            
+            <header><h1>Arquitectura</h1></header>
+            
+            
+            <section><p><img src="images/qvd-network.png"/></p></section>
+            
+          </div>
+          <div class="presenter_notes">
+            <header><h1>Notes</h1></header>
+            <section>
+            
+            </section>
+          </div>
+          <footer>
+            
+            <aside class="source">
+              Source: <a href="qvd-gul-uc3m.md">qvd-gul-uc3m.md</a>
+            </aside>
+            
+            <aside class="page_number">
+              11/50
+            </aside>
+          </footer>
+        </div>
+      </div>
+      
+      <!-- slide source: qvd-gul-uc3m.md -->
+      <div class="slide-wrapper">
+        <div class="slide">
+          <div class="inner">
+            
+            <header><h1>Por dentro</h1></header>
+            
+            
+            <section><ul>
+<li>Linux</li>
+<li>Virtualizadores KVM y LXC</li>
+<li>HTTP/SSL para la comunicacion cliente-servidor</li>
+<li>NX para compression del protocolo X11</li>
+<li>iptables y ebtables para confinamiento de las VMs</li>
+<li>PostgreSQL</li>
+<li>Desarrollado en Perl, C, Javascript</li>
+</ul></section>
+            
+          </div>
+          <div class="presenter_notes">
+            <header><h1>Notes</h1></header>
+            <section>
+            
+            </section>
+          </div>
+          <footer>
+            
+            <aside class="source">
+              Source: <a href="qvd-gul-uc3m.md">qvd-gul-uc3m.md</a>
+            </aside>
+            
+            <aside class="page_number">
+              12/50
+            </aside>
+          </footer>
+        </div>
+      </div>
+      
+      <!-- slide source: qvd-gul-uc3m.md -->
+      <div class="slide-wrapper">
+        <div class="slide">
+          <div class="inner">
+            
+            <header><h1>¿Preguntas?</h1></header>
+            
+            
+          </div>
+          <div class="presenter_notes">
+            <header><h1>Notes</h1></header>
+            <section>
+            
+            </section>
+          </div>
+          <footer>
+            
+            <aside class="source">
+              Source: <a href="qvd-gul-uc3m.md">qvd-gul-uc3m.md</a>
+            </aside>
+            
+            <aside class="page_number">
+              13/50
+            </aside>
+          </footer>
+        </div>
+      </div>
+      
+      <!-- slide source:  -->
+      <div class="slide-wrapper">
+        <div class="slide">
+          <div class="inner">
+            
+            
+          </div>
+          <div class="presenter_notes">
+            <header><h1>Notes</h1></header>
+            <section>
+            
+            </section>
+          </div>
+          <footer>
+            
+            <aside class="page_number">
+              /50
+            </aside>
+          </footer>
+        </div>
+      </div>
+      
+      <!-- slide source: qvd-gul-uc3m.md -->
+      <div class="slide-wrapper">
+        <div class="slide">
+          <div class="inner">
+            
+            <header><h1>Exprimiendo Linux</h1></header>
+            
+            
+            <section><p>...o como llegar a correr 400 máquinas virtuales en un host.</p></section>
+            
+          </div>
+          <div class="presenter_notes">
+            <header><h1>Notes</h1></header>
+            <section>
+            
+            </section>
+          </div>
+          <footer>
+            
+            <aside class="source">
+              Source: <a href="qvd-gul-uc3m.md">qvd-gul-uc3m.md</a>
+            </aside>
+            
+            <aside class="page_number">
+              14/50
+            </aside>
+          </footer>
+        </div>
+      </div>
+      
+      <!-- slide source: qvd-gul-uc3m.md -->
+      <div class="slide-wrapper">
+        <div class="slide">
+          <div class="inner">
+            
+            <header><h1>Cuellos de botella</h1></header>
+            
+            
+            <section><ul>
+<li><strong>RAM</strong></li>
+<li><strong>I/O</strong></li>
+<li>CPU</li>
+<li>Red</li>
+<li><strong>Kernel</strong></li>
+</ul></section>
+            
+          </div>
+          <div class="presenter_notes">
+            <header><h1>Notes</h1></header>
+            <section>
+            
+            </section>
+          </div>
+          <footer>
+            
+            <aside class="source">
+              Source: <a href="qvd-gul-uc3m.md">qvd-gul-uc3m.md</a>
+            </aside>
+            
+            <aside class="page_number">
+              15/50
+            </aside>
+          </footer>
+        </div>
+      </div>
+      
+      <!-- slide source: qvd-gul-uc3m.md -->
+      <div class="slide-wrapper">
+        <div class="slide">
+          <div class="inner">
+            
+            
+            <section><p><img src="images/bottlenecks-ram-vs-cpu.jpg"/></p></section>
+            
+          </div>
+          <div class="presenter_notes">
+            <header><h1>Notes</h1></header>
+            <section>
+            
+            </section>
+          </div>
+          <footer>
+            
+            <aside class="source">
+              Source: <a href="qvd-gul-uc3m.md">qvd-gul-uc3m.md</a>
+            </aside>
+            
+            <aside class="page_number">
+              16/50
+            </aside>
+          </footer>
+        </div>
+      </div>
+      
+      <!-- slide source: qvd-gul-uc3m.md -->
+      <div class="slide-wrapper">
+        <div class="slide">
+          <div class="inner">
+            
+            <header><h1>Interdependencias</h1></header>
+            
+            
+            <section><ul>
+<li>Si aumenta el uso de memoria por los procesos &rarr; menos memoria
+  para buffer de disco &rarr; aumenta el I/O</li>
+<li>Si aumenta el acceso al disco por los procesos &rarr; aumenta el uso
+  de memoria como buffers &rarr; aumenta el uso de RAM</li>
+<li>Si aumenta el uso de swap &rarr; aumenta la carga de I/O</li>
+</ul></section>
+            
+          </div>
+          <div class="presenter_notes">
+            <header><h1>Notes</h1></header>
+            <section>
+            
+            </section>
+          </div>
+          <footer>
+            
+            <aside class="source">
+              Source: <a href="qvd-gul-uc3m.md">qvd-gul-uc3m.md</a>
+            </aside>
+            
+            <aside class="page_number">
+              17/50
+            </aside>
+          </footer>
+        </div>
+      </div>
+      
+      <!-- slide source: qvd-gul-uc3m.md -->
+      <div class="slide-wrapper">
+        <div class="slide">
+          <div class="inner">
+            
+            <header><h1>Máquinas virtuales</h1></header>
+            
+            
+            <section><ul>
+<li>KVM, Xen, VMWare, etc.</li>
+<li>La emulación introduce sobrecarga de CPU e I/O</li>
+<li>Cada máquina virtual tiene su propio kernel.</li>
+<li>Las VMs no colaboran sino que compiten por los recursos.</li>
+<li>Cada VM tiene sus buffers de I/O</li>
+<li><strong>Las VMs usan el 100% de la memoria asignada</strong>.</li>
+</ul></section>
+            
+          </div>
+          <div class="presenter_notes">
+            <header><h1>Notes</h1></header>
+            <section>
+            
+            </section>
+          </div>
+          <footer>
+            
+            <aside class="source">
+              Source: <a href="qvd-gul-uc3m.md">qvd-gul-uc3m.md</a>
+            </aside>
+            
+            <aside class="page_number">
+              18/50
+            </aside>
+          </footer>
+        </div>
+      </div>
+      
+      <!-- slide source: qvd-gul-uc3m.md -->
+      <div class="slide-wrapper">
+        <div class="slide">
+          <div class="inner">
+            
+            <header><h1>VMs - Soporte hardware</h1></header>
+            
+            
+            <section><p>Cada nueva generación de procesadores introduce mejoras en el soporte
+para virtualización:
+<a href="http://en.wikipedia.org/wiki/X86_virtualization">AMD-V, VT-x, AMD-Vi, VT-d, EPT, VMCS</a></p></section>
+            
+          </div>
+          <div class="presenter_notes">
+            <header><h1>Notes</h1></header>
+            <section>
+            
+            </section>
+          </div>
+          <footer>
+            
+            <aside class="source">
+              Source: <a href="qvd-gul-uc3m.md">qvd-gul-uc3m.md</a>
+            </aside>
+            
+            <aside class="page_number">
+              19/50
+            </aside>
+          </footer>
+        </div>
+      </div>
+      
+      <!-- slide source: qvd-gul-uc3m.md -->
+      <div class="slide-wrapper">
+        <div class="slide">
+          <div class="inner">
+            
+            <header><h1>VMs - <a href="http://www.linux-kvm.org/page/Virtio">Virtio</a></h1></header>
+            
+            
+            <section><ul>
+<li>Reemplaza la emulación de hardware por hiper-llamadas desde el
+  kernel de la máquina virtual al sistema anfitrión</li>
+<li>Reduce el uso de CPU</li>
+<li>Soportado por KVM, Xen, VMware, etc.</li>
+</ul></section>
+            
+          </div>
+          <div class="presenter_notes">
+            <header><h1>Notes</h1></header>
+            <section>
+            
+            </section>
+          </div>
+          <footer>
+            
+            <aside class="source">
+              Source: <a href="qvd-gul-uc3m.md">qvd-gul-uc3m.md</a>
+            </aside>
+            
+            <aside class="page_number">
+              20/50
+            </aside>
+          </footer>
+        </div>
+      </div>
+      
+      <!-- slide source: qvd-gul-uc3m.md -->
+      <div class="slide-wrapper">
+        <div class="slide">
+          <div class="inner">
+            
+            <header><h1>VMs - <a href="http://www.linux-kvm.org/page/KSM">KSM</a></h1></header>
+            
+            
+            <section><ul>
+<li>Consolida páginas de memoria con igual contenido.</li>
+<li>Funciona con KVM</li>
+<li>El consumo de CPU no es despreciable &dash; O(N).</li>
+<li>Muy efectivo con los buffers de I/O.</li>
+<li>No detecta páginas que no estan siendo utilizadas.</li>
+<li>Poco efectivo con la memoria de procesos que usan JITs,
+  garbage-collectors o muchas estructuras dinamicas (JVM, GTK+).</li>
+</ul></section>
+            
+          </div>
+          <div class="presenter_notes">
+            <header><h1>Notes</h1></header>
+            <section>
+            
+            </section>
+          </div>
+          <footer>
+            
+            <aside class="source">
+              Source: <a href="qvd-gul-uc3m.md">qvd-gul-uc3m.md</a>
+            </aside>
+            
+            <aside class="page_number">
+              21/50
+            </aside>
+          </footer>
+        </div>
+      </div>
+      
+      <!-- slide source: qvd-gul-uc3m.md -->
+      <div class="slide-wrapper">
+        <div class="slide">
+          <div class="inner">
+            
+            <header><h1>VMs - Balloon driver</h1></header>
+            
+            
+            <section><ul>
+<li>Pincha un agujero en la RAM de la máquina virtual y
+  se la devuelve al sistema anfitrión.</li>
+<li>Soportado en KVM, Xen, VMWare, ...</li>
+<li>No introduce carga de CPU.</li>
+<li><strong>Se adapta a la "presión" de memoria dentro de la máquina
+    virtual</strong>.</li>
+<li>Las VMs usan su swap &rarr; I/O&uarr; <strong>¡peligro!</strong></li>
+</ul></section>
+            
+          </div>
+          <div class="presenter_notes">
+            <header><h1>Notes</h1></header>
+            <section>
+            
+            </section>
+          </div>
+          <footer>
+            
+            <aside class="source">
+              Source: <a href="qvd-gul-uc3m.md">qvd-gul-uc3m.md</a>
+            </aside>
+            
+            <aside class="page_number">
+              22/50
+            </aside>
+          </footer>
+        </div>
+      </div>
+      
+      <!-- slide source: qvd-gul-uc3m.md -->
+      <div class="slide-wrapper">
+        <div class="slide">
+          <div class="inner">
+            
+            
+            <section><p><img width="70%" src="images/balloon.jpg"/></p></section>
+            
+          </div>
+          <div class="presenter_notes">
+            <header><h1>Notes</h1></header>
+            <section>
+            
+            </section>
+          </div>
+          <footer>
+            
+            <aside class="source">
+              Source: <a href="qvd-gul-uc3m.md">qvd-gul-uc3m.md</a>
+            </aside>
+            
+            <aside class="page_number">
+              23/50
+            </aside>
+          </footer>
+        </div>
+      </div>
+      
+      <!-- slide source: qvd-gul-uc3m.md -->
+      <div class="slide-wrapper">
+        <div class="slide">
+          <div class="inner">
+            
+            <header><h1>VMs - I/O</h1></header>
+            
+            
+            <section><ul>
+<li>Uso total de disco</li>
+<li>Número de operaciones por segundo</li>
+<li>x 2 &rarr; local, remoto</li>
+</ul>
+<h2>Sin perder de vista...</h2>
+<ul>
+<li>Provisión de VMs</li>
+<li>VMs volatiles</li>
+</ul></section>
+            
+          </div>
+          <div class="presenter_notes">
+            <header><h1>Notes</h1></header>
+            <section>
+            
+            </section>
+          </div>
+          <footer>
+            
+            <aside class="source">
+              Source: <a href="qvd-gul-uc3m.md">qvd-gul-uc3m.md</a>
+            </aside>
+            
+            <aside class="page_number">
+              24/50
+            </aside>
+          </footer>
+        </div>
+      </div>
+      
+      <!-- slide source: qvd-gul-uc3m.md -->
+      <div class="slide-wrapper">
+        <div class="slide">
+          <div class="inner">
+            
+            <header><h1>VMs - Overlays, <a href="http://en.wikipedia.org/wiki/Qcow">qcow2</a></h1></header>
+            
+            
+            <section><ul>
+<li>Sobre una unica imagen base, se crean varias imagenes derivadas.</li>
+<li>Es una capa adicional con coste en CPU e I/O.</li>
+<li>Los overlays solo almacenan las diferencias con la base.</li>
+<li>Podemos almacenar el overlay en local si no necesitamos
+  persistencia.</li>
+</ul></section>
+            
+          </div>
+          <div class="presenter_notes">
+            <header><h1>Notes</h1></header>
+            <section>
+            
+            </section>
+          </div>
+          <footer>
+            
+            <aside class="source">
+              Source: <a href="qvd-gul-uc3m.md">qvd-gul-uc3m.md</a>
+            </aside>
+            
+            <aside class="page_number">
+              25/50
+            </aside>
+          </footer>
+        </div>
+      </div>
+      
+      <!-- slide source: qvd-gul-uc3m.md -->
+      <div class="slide-wrapper">
+        <div class="slide">
+          <div class="inner">
+            
+            <header><h1>VMs - Optimización del SO invitado</h1></header>
+            
+            
+            <section><ul>
+<li>Se puede optimizar los sistemas operativos que corren en las VMs</li>
+<li>Eliminar I/O innecesario (caches navegador, logs).</li>
+<li>Utilizar aplicaciones ligeras (IceWM).</li>
+<li>Separar partes persistentes (<code>$HOME</code>) de partes desechables (<code>/</code>).</li>
+<li>El <code>cron</code>...</li>
+</ul></section>
+            
+          </div>
+          <div class="presenter_notes">
+            <header><h1>Notes</h1></header>
+            <section>
+            
+            </section>
+          </div>
+          <footer>
+            
+            <aside class="source">
+              Source: <a href="qvd-gul-uc3m.md">qvd-gul-uc3m.md</a>
+            </aside>
+            
+            <aside class="page_number">
+              26/50
+            </aside>
+          </footer>
+        </div>
+      </div>
+      
+      <!-- slide source: qvd-gul-uc3m.md -->
+      <div class="slide-wrapper">
+        <div class="slide">
+          <div class="inner">
+            
+            <header><h1>VMs - Conclusiones</h1></header>
+            
+            
+            <section><ul>
+<li>Mejor soporte hardware, virtio &rarr; CPU&darr;</li>
+<li>KSM &rarr; RAM&darr; CPU&uarr;</li>
+<li>Balloon driver &rarr; RAM&darr; I/O&uarr;</li>
+<li>Overlays &rarr; Uso de disco total&darr;&darr;</li>
+<li>Redistribuir carga de I/O entre local y remoto.</li>
+<li>Optimización del SO virtualizado.</li>
+</ul>
+<p>¡No hay soluciones mágicas!</p></section>
+            
+          </div>
+          <div class="presenter_notes">
+            <header><h1>Notes</h1></header>
+            <section>
+            
+            </section>
+          </div>
+          <footer>
+            
+            <aside class="source">
+              Source: <a href="qvd-gul-uc3m.md">qvd-gul-uc3m.md</a>
+            </aside>
+            
+            <aside class="page_number">
+              27/50
+            </aside>
+          </footer>
+        </div>
+      </div>
+      
+      <!-- slide source: qvd-gul-uc3m.md -->
+      <div class="slide-wrapper">
+        <div class="slide">
+          <div class="inner">
+            
+            <header><h1><a href="http://en.wikipedia.org/wiki/LXC">LXC</a> - Linux Containers</h1></header>
+            
+            
+            <section><blockquote>
+<p>chroot on asteroids</p>
+</blockquote></section>
+            
+          </div>
+          <div class="presenter_notes">
+            <header><h1>Notes</h1></header>
+            <section>
+            
+            </section>
+          </div>
+          <footer>
+            
+            <aside class="source">
+              Source: <a href="qvd-gul-uc3m.md">qvd-gul-uc3m.md</a>
+            </aside>
+            
+            <aside class="page_number">
+              28/50
+            </aside>
+          </footer>
+        </div>
+      </div>
+      
+      <!-- slide source: qvd-gul-uc3m.md -->
+      <div class="slide-wrapper">
+        <div class="slide">
+          <div class="inner">
+            
+            <header><h1>Linux, el kernel...</h1></header>
+            
+            
+            <section><p>Permite particionar los recursos que gestiona:</p>
+<ul>
+<li>Procesos (<code>/proc</code>)</li>
+<li>Arbol de sistemas de ficheros</li>
+<li>Red (interfaces, rutas, reglas firewall, etc.)</li>
+<li>...</li>
+</ul></section>
+            
+          </div>
+          <div class="presenter_notes">
+            <header><h1>Notes</h1></header>
+            <section>
+            
+            </section>
+          </div>
+          <footer>
+            
+            <aside class="source">
+              Source: <a href="qvd-gul-uc3m.md">qvd-gul-uc3m.md</a>
+            </aside>
+            
+            <aside class="page_number">
+              29/50
+            </aside>
+          </footer>
+        </div>
+      </div>
+      
+      <!-- slide source: qvd-gul-uc3m.md -->
+      <div class="slide-wrapper">
+        <div class="slide">
+          <div class="inner">
+            
+            <header><h1>LXC</h1></header>
+            
+            
+            <section><ul>
+<li>Crea contenedores utilizando las capacidades de particionamiento del
+  kernel.</li>
+<li>Aun en desarrollo. Tiene bugs, normalmente poco criticos y oscuros.</li>
+<li>Similar a Solaris zones, FreeBSD jails, Linux-VServer, OpenVZ.</li>
+</ul></section>
+            
+          </div>
+          <div class="presenter_notes">
+            <header><h1>Notes</h1></header>
+            <section>
+            
+            </section>
+          </div>
+          <footer>
+            
+            <aside class="source">
+              Source: <a href="qvd-gul-uc3m.md">qvd-gul-uc3m.md</a>
+            </aside>
+            
+            <aside class="page_number">
+              30/50
+            </aside>
+          </footer>
+        </div>
+      </div>
+      
+      <!-- slide source: qvd-gul-uc3m.md -->
+      <div class="slide-wrapper">
+        <div class="slide">
+          <div class="inner">
+            
+            <header><h1>LXC</h1></header>
+            
+            
+            <section><ul>
+<li>Funcionalmente un contenedor es identico a una máquina virtual.</li>
+<li>Con la particularidad de que no ejecuta su propio kernel.</li>
+<li>Control de uso de CPU, RAM e I/O
+  (<a href="http://en.wikipedia.org/wiki/Cgroups">cgroups</a>).</li>
+<li>Puede compartir recursos con el anfitrión &rarr; ¡flexibilidad!</li>
+<li>Al menos tan seguro como la virtualización completa.</li>
+</ul></section>
+            
+          </div>
+          <div class="presenter_notes">
+            <header><h1>Notes</h1></header>
+            <section>
+            
+            </section>
+          </div>
+          <footer>
+            
+            <aside class="source">
+              Source: <a href="qvd-gul-uc3m.md">qvd-gul-uc3m.md</a>
+            </aside>
+            
+            <aside class="page_number">
+              31/50
+            </aside>
+          </footer>
+        </div>
+      </div>
+      
+      <!-- slide source: qvd-gul-uc3m.md -->
+      <div class="slide-wrapper">
+        <div class="slide">
+          <div class="inner">
+            
+            <header><h1>LXC en 20 segundos</h1></header>
+            
+            
+            <section><pre><code># como root...
+lxc-create -n test -t sshd
+lxc-ls
+mkdir /var/lib/lxc/test/rootfs/root/.ssh
+cp ~salva/.ssh/id_dsa.pub /var/lib/lxc/test/rootfs/root/.ssh/authorized_keys
+lxc-start -n test
+
+# en otra terminal...
+ssh 10.0.3.23 -l root
+</code></pre></section>
+            
+          </div>
+          <div class="presenter_notes">
+            <header><h1>Notes</h1></header>
+            <section>
+            
+            </section>
+          </div>
+          <footer>
+            
+            <aside class="source">
+              Source: <a href="qvd-gul-uc3m.md">qvd-gul-uc3m.md</a>
+            </aside>
+            
+            <aside class="page_number">
+              32/50
+            </aside>
+          </footer>
+        </div>
+      </div>
+      
+      <!-- slide source: qvd-gul-uc3m.md -->
+      <div class="slide-wrapper">
+        <div class="slide">
+          <div class="inner">
+            
+            <header><h1>LXC - Ventajas</h1></header>
+            
+            
+            <section><ul>
+<li>No hay sobrecarga de RAM, CPU o I/O.</li>
+<li>Con LXC solo hay un kernel que tiene visibilidad de todo y se
+  encarga de repartir los recursos entre los contenedores/procesos
+  eficazmente.</li>
+<li>Se comparten los buffers de I/O.</li>
+<li>Los contenedores <strong>solo usan la memoria que necesitan</strong>.</li>
+</ul></section>
+            
+          </div>
+          <div class="presenter_notes">
+            <header><h1>Notes</h1></header>
+            <section>
+            
+            </section>
+          </div>
+          <footer>
+            
+            <aside class="source">
+              Source: <a href="qvd-gul-uc3m.md">qvd-gul-uc3m.md</a>
+            </aside>
+            
+            <aside class="page_number">
+              33/50
+            </aside>
+          </footer>
+        </div>
+      </div>
+      
+      <!-- slide source: qvd-gul-uc3m.md -->
+      <div class="slide-wrapper">
+        <div class="slide">
+          <div class="inner">
+            
+            <header><h1>LXC - Inconvenientes</h1></header>
+            
+            
+            <section><ul>
+<li>Se usa el kernel del sistema anfitrión.<ul>
+<li>En teoria malo para las actualizaciones.</li>
+<li>En la práctica no es un problema.</li>
+</ul>
+</li>
+<li>No tenemos overlays de disco.</li>
+</ul></section>
+            
+          </div>
+          <div class="presenter_notes">
+            <header><h1>Notes</h1></header>
+            <section>
+            
+            </section>
+          </div>
+          <footer>
+            
+            <aside class="source">
+              Source: <a href="qvd-gul-uc3m.md">qvd-gul-uc3m.md</a>
+            </aside>
+            
+            <aside class="page_number">
+              34/50
+            </aside>
+          </footer>
+        </div>
+      </div>
+      
+      <!-- slide source: qvd-gul-uc3m.md -->
+      <div class="slide-wrapper">
+        <div class="slide">
+          <div class="inner">
+            
+            <header><h1>LXC - <code>s/overlays/?/</code></h1></header>
+            
+            
+          </div>
+          <div class="presenter_notes">
+            <header><h1>Notes</h1></header>
+            <section>
+            
+            </section>
+          </div>
+          <footer>
+            
+            <aside class="source">
+              Source: <a href="qvd-gul-uc3m.md">qvd-gul-uc3m.md</a>
+            </aside>
+            
+            <aside class="page_number">
+              35/50
+            </aside>
+          </footer>
+        </div>
+      </div>
+      
+      <!-- slide source: qvd-gul-uc3m.md -->
+      <div class="slide-wrapper">
+        <div class="slide">
+          <div class="inner">
+            
+            <header><h1>LXC - LVM?</h1></header>
+            
+            
+            <section><ul>
+<li>Con LVM podemos emular los overlays.</li>
+<li>Gestión muy complicada.</li>
+<li>Cada capa es vista de manera independiente por el kernel &rarr; los
+  datos acaban duplicados en buffers de I/O.</li>
+</ul></section>
+            
+          </div>
+          <div class="presenter_notes">
+            <header><h1>Notes</h1></header>
+            <section>
+            
+            </section>
+          </div>
+          <footer>
+            
+            <aside class="source">
+              Source: <a href="qvd-gul-uc3m.md">qvd-gul-uc3m.md</a>
+            </aside>
+            
+            <aside class="page_number">
+              36/50
+            </aside>
+          </footer>
+        </div>
+      </div>
+      
+      <!-- slide source: qvd-gul-uc3m.md -->
+      <div class="slide-wrapper">
+        <div class="slide">
+          <div class="inner">
+            
+            <header><h1>LXC - <a href="http://en.wikipedia.org/wiki/Btrfs">Btrfs</a>?</h1></header>
+            
+            
+            <section><ul>
+<li>Solo funciona en local.</li>
+<li>Crear nuevas máquinas es muy rápido.</li>
+<li>No hay datos duplicados en disco (a nivel de bloque).</li>
+<li>Se comparten buffers de I/O pero no <code>mmap</code>s.</li>
+<li>En desarrollo, hace falta un kernel muy reciente.</li>
+<li>SuSE lo soporta en producción.</li>
+</ul></section>
+            
+          </div>
+          <div class="presenter_notes">
+            <header><h1>Notes</h1></header>
+            <section>
+            
+            </section>
+          </div>
+          <footer>
+            
+            <aside class="source">
+              Source: <a href="qvd-gul-uc3m.md">qvd-gul-uc3m.md</a>
+            </aside>
+            
+            <aside class="page_number">
+              37/50
+            </aside>
+          </footer>
+        </div>
+      </div>
+      
+      <!-- slide source: qvd-gul-uc3m.md -->
+      <div class="slide-wrapper">
+        <div class="slide">
+          <div class="inner">
+            
+            <header><h1>LXC - <code>mount --bind</code>?</h1></header>
+            
+            
+            <section><ul>
+<li>Una rama del sistema de ficheros se puede "remontar" en otro lugar
+  (enlace simbolico a lo bestia).</li>
+<li><code>mount --bind</code> rutas <code>ro</code> (<code>/**/{sbin,bin,lib}</code>) + <code>untar</code> rutas <code>rw</code> (<code>/{var,etc,...}</code>) &rarr; imagen OS!</li>
+<li>Se comparten buffers de I/O y <strong><code>mmap</code>s</strong>.</li>
+<li>Requiere una imagen muy modificada.</li>
+</ul></section>
+            
+          </div>
+          <div class="presenter_notes">
+            <header><h1>Notes</h1></header>
+            <section>
+            
+            </section>
+          </div>
+          <footer>
+            
+            <aside class="source">
+              Source: <a href="qvd-gul-uc3m.md">qvd-gul-uc3m.md</a>
+            </aside>
+            
+            <aside class="page_number">
+              38/50
+            </aside>
+          </footer>
+        </div>
+      </div>
+      
+      <!-- slide source: qvd-gul-uc3m.md -->
+      <div class="slide-wrapper">
+        <div class="slide">
+          <div class="inner">
+            
+            <header><h1>LXC - union file systems?</h1></header>
+            
+            
+            <section><ul>
+<li><a href="http://www.fsl.cs.sunysb.edu/project-unionfs.html">UnionFS</a></li>
+<li>UnionFsFuse</li>
+<li><a href="http://aufs.sourceforge.net/">AuFS</a></li>
+<li><a href="http://valerieaurora.org/union/">Union Mounts</a></li>
+<li><a href="https://kernel.googlesource.com/pub/scm/linux/kernel/git/mszeredi/vfs/+/overlayfs.current/Documentation/filesystems/overlayfs.txt">OverlayFS</a></li>
+</ul>
+<p>¡el culebrón!</p></section>
+            
+          </div>
+          <div class="presenter_notes">
+            <header><h1>Notes</h1></header>
+            <section>
+            
+            </section>
+          </div>
+          <footer>
+            
+            <aside class="source">
+              Source: <a href="qvd-gul-uc3m.md">qvd-gul-uc3m.md</a>
+            </aside>
+            
+            <aside class="page_number">
+              39/50
+            </aside>
+          </footer>
+        </div>
+      </div>
+      
+      <!-- slide source: qvd-gul-uc3m.md -->
+      <div class="slide-wrapper">
+        <div class="slide">
+          <div class="inner">
+            
+            <header><h1>Union File Systems</h1></header>
+            
+            
+            <section><ul>
+<li>Muchos casos de uso distintos.</li>
+<li>Compromiso entre eficiencia, funcionalidad y
+  compatibilidad (semantica POSIX).</li>
+<li>Nunca se consigue contentar a todo el mundo.</li>
+<li>Algunos casos extremos son difíciles de abordar.</li>
+</ul></section>
+            
+          </div>
+          <div class="presenter_notes">
+            <header><h1>Notes</h1></header>
+            <section>
+            
+            </section>
+          </div>
+          <footer>
+            
+            <aside class="source">
+              Source: <a href="qvd-gul-uc3m.md">qvd-gul-uc3m.md</a>
+            </aside>
+            
+            <aside class="page_number">
+              40/50
+            </aside>
+          </footer>
+        </div>
+      </div>
+      
+      <!-- slide source: qvd-gul-uc3m.md -->
+      <div class="slide-wrapper">
+        <div class="slide">
+          <div class="inner">
+            
+            <header><h1>UnionFS</h1></header>
+            
+            
+            <section><ul>
+<li>Primer intento serio &dash; problemas de diseño importantes.</li>
+<li>Se reescribio, v2 &dash; aun con problemas.</li>
+<li>Lleva casi dos años sin actualizaciones.</li>
+</ul></section>
+            
+          </div>
+          <div class="presenter_notes">
+            <header><h1>Notes</h1></header>
+            <section>
+            
+            </section>
+          </div>
+          <footer>
+            
+            <aside class="source">
+              Source: <a href="qvd-gul-uc3m.md">qvd-gul-uc3m.md</a>
+            </aside>
+            
+            <aside class="page_number">
+              41/50
+            </aside>
+          </footer>
+        </div>
+      </div>
+      
+      <!-- slide source: qvd-gul-uc3m.md -->
+      <div class="slide-wrapper">
+        <div class="slide">
+          <div class="inner">
+            
+            <header><h1>UnionFsFuse</h1></header>
+            
+            
+            <section><ul>
+<li>Funciona con <a href="http://fuse.sourceforge.net/">FUSE</a> &rarr; no hay que
+  parchear el kernel.</li>
+<li>Rendimiento pésimo, inviable en la práctica.</li>
+</ul></section>
+            
+          </div>
+          <div class="presenter_notes">
+            <header><h1>Notes</h1></header>
+            <section>
+            
+            </section>
+          </div>
+          <footer>
+            
+            <aside class="source">
+              Source: <a href="qvd-gul-uc3m.md">qvd-gul-uc3m.md</a>
+            </aside>
+            
+            <aside class="page_number">
+              42/50
+            </aside>
+          </footer>
+        </div>
+      </div>
+      
+      <!-- slide source: qvd-gul-uc3m.md -->
+      <div class="slide-wrapper">
+        <div class="slide">
+          <div class="inner">
+            
+            <header><h1>AuFS</h1></header>
+            
+            
+            <section><ul>
+<li>Fork de UnionFS, reescrito completamente en v2.</li>
+<li>"Feature rich".</li>
+<li>Han intentado integrarlo en Linux varias veces sin exito.</li>
+<li>Parche gigantesco del kernel. Codigo dudoso.</li>
+<li><strong>Integrado en Ubuntu</strong></li>
+</ul></section>
+            
+          </div>
+          <div class="presenter_notes">
+            <header><h1>Notes</h1></header>
+            <section>
+            
+            </section>
+          </div>
+          <footer>
+            
+            <aside class="source">
+              Source: <a href="qvd-gul-uc3m.md">qvd-gul-uc3m.md</a>
+            </aside>
+            
+            <aside class="page_number">
+              43/50
+            </aside>
+          </footer>
+        </div>
+      </div>
+      
+      <!-- slide source: qvd-gul-uc3m.md -->
+      <div class="slide-wrapper">
+        <div class="slide">
+          <div class="inner">
+            
+            <header><h1>Union Mounts</h1></header>
+            
+            
+            <section><ul>
+<li>Implementado sobre VFS. Estrictamente, no es un FS.</li>
+<li>Simplicidad pesa más que funcionalidad.</li>
+<li>Parecia a punto de ser integrado en 2009, pero...</li>
+</ul></section>
+            
+          </div>
+          <div class="presenter_notes">
+            <header><h1>Notes</h1></header>
+            <section>
+            
+            </section>
+          </div>
+          <footer>
+            
+            <aside class="source">
+              Source: <a href="qvd-gul-uc3m.md">qvd-gul-uc3m.md</a>
+            </aside>
+            
+            <aside class="page_number">
+              44/50
+            </aside>
+          </footer>
+        </div>
+      </div>
+      
+      <!-- slide source: qvd-gul-uc3m.md -->
+      <div class="slide-wrapper">
+        <div class="slide">
+          <div class="inner">
+            
+            <header><h1>OverlayFS</h1></header>
+            
+            
+            <section><ul>
+<li>Simplicidad sobre funcionalidad.</li>
+<li>A punto de ser integrado en 3.10... ¡Aun hay esperanzas!</li>
+<li><strong>Integrado en Ubuntu</strong></li>
+<li>Con LXC, se comparten buffers de I/O y <strong><code>mmap</code>s</strong>.</li>
+</ul></section>
+            
+          </div>
+          <div class="presenter_notes">
+            <header><h1>Notes</h1></header>
+            <section>
+            
+            </section>
+          </div>
+          <footer>
+            
+            <aside class="source">
+              Source: <a href="qvd-gul-uc3m.md">qvd-gul-uc3m.md</a>
+            </aside>
+            
+            <aside class="page_number">
+              45/50
+            </aside>
+          </footer>
+        </div>
+      </div>
+      
+      <!-- slide source: qvd-gul-uc3m.md -->
+      <div class="slide-wrapper">
+        <div class="slide">
+          <div class="inner">
+            
+            <header><h1>En resumen...</h1></header>
+            
+            
+            <section><ul>
+<li>Imagenes persistentes &rarr; OverlayFS* y AuFS en Ubuntu.</li>
+<li>Imagenes volatiles &rarr; Btrfs en SuSE, OverlayFS en Ubuntu.</li>
+<li>Para todo lo demás... no hay opciónes.</li>
+</ul></section>
+            
+          </div>
+          <div class="presenter_notes">
+            <header><h1>Notes</h1></header>
+            <section>
+            
+            </section>
+          </div>
+          <footer>
+            
+            <aside class="source">
+              Source: <a href="qvd-gul-uc3m.md">qvd-gul-uc3m.md</a>
+            </aside>
+            
+            <aside class="page_number">
+              46/50
+            </aside>
+          </footer>
+        </div>
+      </div>
+      
+      <!-- slide source: qvd-gul-uc3m.md -->
+      <div class="slide-wrapper">
+        <div class="slide">
+          <div class="inner">
+            
+            <header><h1>VDI en Linux - conclusiones</h1></header>
+            
+            
+            <section><ul>
+<li>LXC ofrece mejores prestaciones que KVM.</li>
+<li>Pero el "ecosistema" Linux/LXC aun no está maduro.</li>
+</ul></section>
+            
+          </div>
+          <div class="presenter_notes">
+            <header><h1>Notes</h1></header>
+            <section>
+            
+            </section>
+          </div>
+          <footer>
+            
+            <aside class="source">
+              Source: <a href="qvd-gul-uc3m.md">qvd-gul-uc3m.md</a>
+            </aside>
+            
+            <aside class="page_number">
+              47/50
+            </aside>
+          </footer>
+        </div>
+      </div>
+      
+      <!-- slide source: qvd-gul-uc3m.md -->
+      <div class="slide-wrapper">
+        <div class="slide">
+          <div class="inner">
+            
+            <header><h1>¿Preguntas?</h1></header>
+            
+            
+          </div>
+          <div class="presenter_notes">
+            <header><h1>Notes</h1></header>
+            <section>
+            
+            </section>
+          </div>
+          <footer>
+            
+            <aside class="source">
+              Source: <a href="qvd-gul-uc3m.md">qvd-gul-uc3m.md</a>
+            </aside>
+            
+            <aside class="page_number">
+              48/50
+            </aside>
+          </footer>
+        </div>
+      </div>
+      
+      <!-- slide source: qvd-gul-uc3m.md -->
+      <div class="slide-wrapper">
+        <div class="slide">
+          <div class="inner">
+            
+            <header><h1>¡Gracias!</h1></header>
+            
+            
+          </div>
+          <div class="presenter_notes">
+            <header><h1>Notes</h1></header>
+            <section>
+            
+            </section>
+          </div>
+          <footer>
+            
+            <aside class="source">
+              Source: <a href="qvd-gul-uc3m.md">qvd-gul-uc3m.md</a>
+            </aside>
+            
+            <aside class="page_number">
+              49/50
+            </aside>
+          </footer>
+        </div>
+      </div>
+      
+      <!-- slide source: qvd-gul-uc3m.md -->
+      <div class="slide-wrapper">
+        <div class="slide">
+          <div class="inner">
+            
+            <header><h1>Referencias</h1></header>
+            
+            
+            <section><ul>
+<li>Esta presentación: http://github.com/salva/s-qvd-gul-uc3m</li>
+<li><a href="http://theqvd.com">QVD</a></li>
+<li>Union File Systems:<ul>
+<li><a href="http://www.linux-kongress.org/2009/slides/state_union_mount_jan_blunck.pdf">When you don't need Union Mounts</a></li>
+<li><a href="http://lwn.net/Articles/324291/">Unioning file systems: Architecture, features, and design choices</a></li>
+<li><a href="http://lwn.net/Articles/325369/">Union file systems: Implementations, part I</a></li>
+<li><a href="http://lwn.net/Articles/327738/">Unioning file systems: Implementations, part 2</a></li>
+<li><a href="http://lwn.net/Articles/396020/">A brief history of union mounts</a></li>
+<li><a href="http://lwn.net/Articles/403012/">Another union filesystem approach</a></li>
+<li><a href="https://lwn.net/Articles/447650/">Debating overlayfs</a></li>
+<li><a href="http://lwn.net/Articles/542707/">Overlayfs for 3.10</a></li>
+</ul>
+</li>
+</ul></section>
+            
+          </div>
+          <div class="presenter_notes">
+            <header><h1>Notes</h1></header>
+            <section>
+            
+            </section>
+          </div>
+          <footer>
+            
+            <aside class="source">
+              Source: <a href="qvd-gul-uc3m.md">qvd-gul-uc3m.md</a>
+            </aside>
+            
+            <aside class="page_number">
+              50/50
+            </aside>
+          </footer>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+  
+  
+  <div id="toc" class="sidebar hidden">
+    <h2>Table of Contents</h2>
+    <table>
+      <caption>Table of Contents</caption>
+      
+      <tr id="toc-row-1">
+        <th><a href="#slide1">QVD</a></th>
+        <td><a href="#slide1">1</a></td>
+      </tr>
+      
+      
+      <tr id="toc-row-2">
+        <th><a href="#slide2">QVD</a></th>
+        <td><a href="#slide2">2</a></td>
+      </tr>
+      
+      
+      <tr id="toc-row-3">
+        <th><a href="#slide3">Cliente</a></th>
+        <td><a href="#slide3">3</a></td>
+      </tr>
+      
+      
+      <tr id="toc-row-4">
+        <th><a href="#slide4">-</a></th>
+        <td><a href="#slide4">4</a></td>
+      </tr>
+      
+      
+      <tr id="toc-row-5">
+        <th><a href="#slide5">Escritorio virtual</a></th>
+        <td><a href="#slide5">5</a></td>
+      </tr>
+      
+      
+      <tr id="toc-row-6">
+        <th><a href="#slide6">-</a></th>
+        <td><a href="#slide6">6</a></td>
+      </tr>
+      
+      
+      <tr id="toc-row-7">
+        <th><a href="#slide7">Servidor/Granja</a></th>
+        <td><a href="#slide7">7</a></td>
+      </tr>
+      
+      
+      <tr id="toc-row-8">
+        <th><a href="#slide8">Administración</a></th>
+        <td><a href="#slide8">8</a></td>
+      </tr>
+      
+      
+      <tr id="toc-row-9">
+        <th><a href="#slide9">-</a></th>
+        <td><a href="#slide9">9</a></td>
+      </tr>
+      
+      
+      <tr id="toc-row-10">
+        <th><a href="#slide10">Destaca por...</a></th>
+        <td><a href="#slide10">10</a></td>
+      </tr>
+      
+      
+      <tr id="toc-row-11">
+        <th><a href="#slide11">Arquitectura</a></th>
+        <td><a href="#slide11">11</a></td>
+      </tr>
+      
+      
+      <tr id="toc-row-12">
+        <th><a href="#slide12">Por dentro</a></th>
+        <td><a href="#slide12">12</a></td>
+      </tr>
+      
+      
+      <tr id="toc-row-13">
+        <th><a href="#slide13">¿Preguntas?</a></th>
+        <td><a href="#slide13">13</a></td>
+      </tr>
+      
+      
+      <tr id="toc-row-14">
+        <th><a href="#slide14">Exprimiendo Linux</a></th>
+        <td><a href="#slide14">14</a></td>
+      </tr>
+      
+      
+      <tr id="toc-row-15">
+        <th><a href="#slide15">Cuellos de botella</a></th>
+        <td><a href="#slide15">15</a></td>
+      </tr>
+      
+      
+      <tr id="toc-row-16">
+        <th><a href="#slide16">-</a></th>
+        <td><a href="#slide16">16</a></td>
+      </tr>
+      
+      
+      <tr id="toc-row-17">
+        <th><a href="#slide17">Interdependencias</a></th>
+        <td><a href="#slide17">17</a></td>
+      </tr>
+      
+      
+      <tr id="toc-row-18">
+        <th><a href="#slide18">Máquinas virtuales</a></th>
+        <td><a href="#slide18">18</a></td>
+      </tr>
+      
+      
+      <tr id="toc-row-19">
+        <th><a href="#slide19">VMs - Soporte hardware</a></th>
+        <td><a href="#slide19">19</a></td>
+      </tr>
+      
+      
+      <tr id="toc-row-20">
+        <th><a href="#slide20">VMs - <a href="http://www.linux-kvm.org/page/Virtio">Virtio</a></a></th>
+        <td><a href="#slide20">20</a></td>
+      </tr>
+      
+      
+      <tr id="toc-row-21">
+        <th><a href="#slide21">VMs - <a href="http://www.linux-kvm.org/page/KSM">KSM</a></a></th>
+        <td><a href="#slide21">21</a></td>
+      </tr>
+      
+      
+      <tr id="toc-row-22">
+        <th><a href="#slide22">VMs - Balloon driver</a></th>
+        <td><a href="#slide22">22</a></td>
+      </tr>
+      
+      
+      <tr id="toc-row-23">
+        <th><a href="#slide23">-</a></th>
+        <td><a href="#slide23">23</a></td>
+      </tr>
+      
+      
+      <tr id="toc-row-24">
+        <th><a href="#slide24">VMs - I/O</a></th>
+        <td><a href="#slide24">24</a></td>
+      </tr>
+      
+      
+      <tr id="toc-row-25">
+        <th><a href="#slide25">VMs - Overlays, <a href="http://en.wikipedia.org/wiki/Qcow">qcow2</a></a></th>
+        <td><a href="#slide25">25</a></td>
+      </tr>
+      
+      
+      <tr id="toc-row-26">
+        <th><a href="#slide26">VMs - Optimización del SO invitado</a></th>
+        <td><a href="#slide26">26</a></td>
+      </tr>
+      
+      
+      <tr id="toc-row-27">
+        <th><a href="#slide27">VMs - Conclusiones</a></th>
+        <td><a href="#slide27">27</a></td>
+      </tr>
+      
+      
+      <tr id="toc-row-28">
+        <th><a href="#slide28"><a href="http://en.wikipedia.org/wiki/LXC">LXC</a> - Linux Containers</a></th>
+        <td><a href="#slide28">28</a></td>
+      </tr>
+      
+      
+      <tr id="toc-row-29">
+        <th><a href="#slide29">Linux, el kernel...</a></th>
+        <td><a href="#slide29">29</a></td>
+      </tr>
+      
+      
+      <tr id="toc-row-30">
+        <th><a href="#slide30">LXC</a></th>
+        <td><a href="#slide30">30</a></td>
+      </tr>
+      
+      
+      <tr id="toc-row-31">
+        <th><a href="#slide31">LXC</a></th>
+        <td><a href="#slide31">31</a></td>
+      </tr>
+      
+      
+      <tr id="toc-row-32">
+        <th><a href="#slide32">LXC en 20 segundos</a></th>
+        <td><a href="#slide32">32</a></td>
+      </tr>
+      
+      
+      <tr id="toc-row-33">
+        <th><a href="#slide33">LXC - Ventajas</a></th>
+        <td><a href="#slide33">33</a></td>
+      </tr>
+      
+      
+      <tr id="toc-row-34">
+        <th><a href="#slide34">LXC - Inconvenientes</a></th>
+        <td><a href="#slide34">34</a></td>
+      </tr>
+      
+      
+      <tr id="toc-row-35">
+        <th><a href="#slide35">LXC - <code>s/overlays/?/</code></a></th>
+        <td><a href="#slide35">35</a></td>
+      </tr>
+      
+      
+      <tr id="toc-row-36">
+        <th><a href="#slide36">LXC - LVM?</a></th>
+        <td><a href="#slide36">36</a></td>
+      </tr>
+      
+      
+      <tr id="toc-row-37">
+        <th><a href="#slide37">LXC - <a href="http://en.wikipedia.org/wiki/Btrfs">Btrfs</a>?</a></th>
+        <td><a href="#slide37">37</a></td>
+      </tr>
+      
+      
+      <tr id="toc-row-38">
+        <th><a href="#slide38">LXC - <code>mount --bind</code>?</a></th>
+        <td><a href="#slide38">38</a></td>
+      </tr>
+      
+      
+      <tr id="toc-row-39">
+        <th><a href="#slide39">LXC - union file systems?</a></th>
+        <td><a href="#slide39">39</a></td>
+      </tr>
+      
+      
+      <tr id="toc-row-40">
+        <th><a href="#slide40">Union File Systems</a></th>
+        <td><a href="#slide40">40</a></td>
+      </tr>
+      
+      
+      <tr id="toc-row-41">
+        <th><a href="#slide41">UnionFS</a></th>
+        <td><a href="#slide41">41</a></td>
+      </tr>
+      
+      
+      <tr id="toc-row-42">
+        <th><a href="#slide42">UnionFsFuse</a></th>
+        <td><a href="#slide42">42</a></td>
+      </tr>
+      
+      
+      <tr id="toc-row-43">
+        <th><a href="#slide43">AuFS</a></th>
+        <td><a href="#slide43">43</a></td>
+      </tr>
+      
+      
+      <tr id="toc-row-44">
+        <th><a href="#slide44">Union Mounts</a></th>
+        <td><a href="#slide44">44</a></td>
+      </tr>
+      
+      
+      <tr id="toc-row-45">
+        <th><a href="#slide45">OverlayFS</a></th>
+        <td><a href="#slide45">45</a></td>
+      </tr>
+      
+      
+      <tr id="toc-row-46">
+        <th><a href="#slide46">En resumen...</a></th>
+        <td><a href="#slide46">46</a></td>
+      </tr>
+      
+      
+      <tr id="toc-row-47">
+        <th><a href="#slide47">VDI en Linux - conclusiones</a></th>
+        <td><a href="#slide47">47</a></td>
+      </tr>
+      
+      
+      <tr id="toc-row-48">
+        <th><a href="#slide48">¿Preguntas?</a></th>
+        <td><a href="#slide48">48</a></td>
+      </tr>
+      
+      
+      <tr id="toc-row-49">
+        <th><a href="#slide49">¡Gracias!</a></th>
+        <td><a href="#slide49">49</a></td>
+      </tr>
+      
+      
+      <tr id="toc-row-50">
+        <th><a href="#slide50">Referencias</a></th>
+        <td><a href="#slide50">50</a></td>
+      </tr>
+      
+      
+    </table>
+  </div>
+  
+  <div id="help" class="sidebar hidden">
+    <h2>Help</h2>
+    <table>
+      <caption>Help</caption>
+      <tr>
+        <th>Table of contents</th>
+        <td>t</td>
+      </tr>
+      <tr>
+        <th>Exposé</th>
+        <td>ESC</td>
+      </tr>
+      <tr>
+        <th>Autoscale</th>
+        <td>e</td>
+      </tr>
+      <tr>
+        <th>Full screen slides</th>
+        <td>f</td>
+      </tr>
+      <tr>
+        <th>Presenter view</th>
+        <td>p</td>
+      </tr>
+      <tr>
+        <th>Source files</th>
+        <td>s</td>
+      </tr>
+      <tr>
+        <th>Slide numbers</th>
+        <td>n</td>
+      </tr>
+      <tr>
+        <th>Blank screen</th>
+        <td>b</td>
+      </tr>
+      <tr>
+        <th>Notes</th>
+        <td>2</td>
+      </tr>
+      <tr>
+        <th>Help</th>
+        <td>h</td>
+      </tr>
+    </table>
+  </div>
+  <script>$().landslide();</script>
+</body>
+</html>
